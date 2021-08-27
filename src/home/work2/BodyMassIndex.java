@@ -1,4 +1,4 @@
-package com.homeworks;
+package home.work2;
 
 public class BodyMassIndex {
 
