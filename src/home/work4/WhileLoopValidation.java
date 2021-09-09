@@ -2,7 +2,7 @@ package home.work4;
 
 import java.util.Scanner;
 
-public class whileLoopValidation {
+public class WhileLoopValidation {
     public static void main(String[] args) {
 
         // Write a program that takes the numbers input by user
@@ -18,12 +18,10 @@ public class whileLoopValidation {
             do {
                 number = input.nextInt();
                 count++;
-                if (number < 0 || number > 0) {
-                    if (number > 0) {
-                        positive++;
-                    } else {
-                        negative++;
-                    }
+                if (number > 0) {
+                    positive++;
+                } else if (number < 0) {
+                    negative++;
                 } else if (number == 0) {
                     zero++;
                 } else {

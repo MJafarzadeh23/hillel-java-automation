@@ -3,7 +3,7 @@ package home.work4;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class arrayValuesSum {
+public class ArrayValuesSum {
     public static void main(String[] args) {
 
         // Create an array of integers. Write a Java program to sum values of the array

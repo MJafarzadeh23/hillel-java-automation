@@ -1,8 +1,8 @@
 package home.work4;
 
-import java.util.Arrays;
+        import java.util.Arrays;
 
-public class arrayAverageValue {
+public class ArrayAverageValue {
     public static void main(String[] args) {
 
         // Write a program to calculate average value of an array elements

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class pinGuess {
+public class PinGuess {
     public static void main(String[] args) {
 
         //validate the input from user who has only three tries to guess the correct pin of the account

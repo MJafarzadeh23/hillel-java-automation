@@ -2,7 +2,7 @@ package home.work4;
 
 import java.util.Scanner;
 
-public class guessNumber {
+public class GuessNumber {
     public static void main(String[] args) {
 
         // Write a program that generates a random number and asks the user to guess what the number is.
@@ -12,11 +12,12 @@ public class guessNumber {
         Scanner input = new Scanner(System.in);
 
         // generate a random number
-        int correctAnswer = ((int) (Math.random()* 10)+ 1);
+        int correctAnswer = ((int) (Math.random() * 10) + 1);
+        System.out.println("Guess an integer number between 1 and 10: ");
 
-        while (true) {
-            System.out.println("Guess an integer number between 1 and 10: ");
-            int userInput = input.nextInt();
+        int userInput;
+        do {
+            userInput = input.nextInt();
 
             if (userInput > correctAnswer) {
                 System.out.println("Too high, try again:");
@@ -26,6 +27,6 @@ public class guessNumber {
                 System.out.println("Yes, you guessed the number!");
                 break;
             }
-        }
+        } while (userInput != correctAnswer);
     }
 }

@@ -2,7 +2,7 @@ package home.work4;
 
 import java.util.Scanner;
 
-public class triangleLoopSharps {
+public class TriangleLoopSharps {
     public static void main(String[] args) {
         // Write a program that takes a max number of rows from user and prints out # sign with the following pattern:
         // first row ## and every following row increments qty by 1, so the second will be ###,
@@ -31,7 +31,7 @@ public class triangleLoopSharps {
             } else if (numberOfRows > 0) {
                 for (int i = 2; i <= (numberOfRows + 1); i++) { // it starts with 2, adding +1 on every cycle and number of cycles will be 1 more than entered input number
                     int counter = 0;
-                    while (counter < i) {
+                    for (int j = 0; j < i; j++) {
                         System.out.print("*");
                         counter++;
                     }

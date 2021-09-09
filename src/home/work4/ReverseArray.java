@@ -2,7 +2,7 @@ package home.work4;
 
 import java.util.Scanner;
 
-public class reverseArray {
+public class ReverseArray {
     public static void main(String[] args) {
 
         // Write a program that prompts the user to input an integer and then

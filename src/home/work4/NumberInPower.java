@@ -2,7 +2,7 @@ package home.work4;
 
 import java.util.Scanner;
 
-public class numberInPower {
+public class NumberInPower {
     public static void main(String[] args) {
 
         // Two numbers are entered through the keyboard. Write a program to find the value of one number raised to the power of another.

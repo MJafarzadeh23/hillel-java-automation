@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class sharpsArray {
+public class SharpsFor {
     public static void main(String[] args) {
 
-        // print a box of '#' using LOOPS and array sizes, set by user
+        // print a box of '#' using loops: WHILE FOR
         Scanner dim = new Scanner(System.in);
         System.out.println("Please, enter height:");
 
@@ -19,14 +19,9 @@ public class sharpsArray {
                     if (width <= 0) {
                         System.out.println("Input is not valid!");
                     } else {
-                        int[][] sharpsArray = new int[height][width];
-
-                        int sharps;
-
-                        for (int i = 0; i < sharpsArray.length; i++) {
+                        for (int i = 0; i < height; i++) {
                             int counter = 0;
-                            sharps = width;
-                            while (counter < sharps) {
+                            while (counter < width) {
                                 System.out.print("#");
                                 counter++;
                             }

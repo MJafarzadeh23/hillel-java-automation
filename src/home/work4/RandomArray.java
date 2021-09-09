@@ -2,13 +2,10 @@ package home.work4;
 
 import java.util.Scanner;
 
-public class userInputArray {
+public class RandomArray {
     public static void main(String[] args) {
 
-        //Ask user to input qty of elements in the array. Create an empty array of the given qty of elements.
-        // Write a program that fills in your empty array with numbers from 1 (at 0 index of your array) to the last array element.
-        // Print the resulting array into console.
-
+        //create an array and fill it in by randomly generated numbers.
         Scanner input = new Scanner(System.in);
         System.out.println("Please, enter qty of elements in the array:");
 
@@ -20,10 +17,9 @@ public class userInputArray {
                 int[] array = new int[qty];
 
                 for (int i = 0; i < array.length; i++) {
-                    array[i] = i + 1;
+                    array[i] = (int) (Math.random() * 100);
                 }
-
-                System.out.println("The array of " + qty + " elements is as follows:");
+                System.out.println("The array of " + qty + " random elements from 0 to 99 is as follows:");
                 for (int i = 0; i < array.length; i++) {
                     System.out.print(array[i] + " ");
                 }
