@@ -90,7 +90,7 @@ public class Main {
         //Если у вас число четырехзначное:
         //8208 = 8*8*8*8 + 2*2*2*2 + 0*0*0*0 + 8*8*8*8 = 4096 + 16 + 0 + 4096 = 8208)
 
-        char[] numberArray = String.valueOf(number);
+       /* char[] numberArray = String.valueOf(number);
         int len = numberArray.length;
         double result = 1;
         for (int i = 0; i < numberArray.length; i++) {
@@ -99,7 +99,7 @@ public class Main {
                 result = result * numberArray[i];
             }
         }
-        System.out.println(result);
+        System.out.println(result);*/
 
 /*
         if (number % 2 == 0) {
