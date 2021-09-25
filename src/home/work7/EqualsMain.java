@@ -1,4 +1,4 @@
-package home.work8;
+package home.work7;
 
 public class EqualsMain {
     // Create 2 classes, each contains 2 variables. In first class override equals and hashcode.

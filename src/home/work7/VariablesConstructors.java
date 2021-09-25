@@ -1,4 +1,4 @@
-package home.work8;
+package home.work7;
 
 public class VariablesConstructors {
 

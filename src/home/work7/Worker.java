@@ -1,4 +1,4 @@
-package home.work8;
+package home.work7;
 
 public class Worker {
     // Create class Worker with next fields: String name, int age, String position, int salary.

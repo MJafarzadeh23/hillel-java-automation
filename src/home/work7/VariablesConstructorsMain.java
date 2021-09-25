@@ -1,4 +1,4 @@
-package home.work8;
+package home.work7;
 
 public class VariablesConstructorsMain {
     // Create class with 3 variables and 3 constructors. Add usage of all constructor and variables in main method in other class
